@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script type="text/javascript" src="./core.js"></script>
+		<script type="text/javascript">
+			window.addEventListener('load', function() {
+				var button = document.getElementById('btn');
+				if (button) {
+					button.addEventListener('click', window.testFn);
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<p>
+			This is an experiment!
+		</p>
+		<input id="btn" type="button" value="Click Me!"/>
+	</body>
+
+</html>
